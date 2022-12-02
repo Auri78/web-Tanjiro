@@ -1,0 +1,116 @@
+.h5,h5{
+    font-family: fantasy;
+    font-size: 14em;
+    font-weight: bolder;
+    text-shadow: 0 19PX 11px red;
+}
+
+.carousel-caption{
+    bottom: 0;
+    top: 3rem;
+}
+.carousel-caption p {
+    font-family: fantasy;
+    border-color: black;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: 0 19PX 11px red;
+}
+.container-fluid{
+    color: azure;
+}
+.navbar{
+    color: white !important;
+}
+.navbar-brand{
+    color: red;
+}
+.nav-link{
+    color: red;
+}
+.nav-item{
+    color: red;
+}
+.carousel-item{
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center;
+    background-size: cover;
+
+}
+/*clase centrada{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }*/
+.blog img{
+    width:50%;
+    height: 50%;
+    margin-top: 25%;
+}
+.blog1{
+    width: 75%;
+    height: 75%;
+    text-align: center;
+    margin:25%
+}
+
+/*prueba{
+    width:15%;
+    margin-left:450%;
+  }*/
+.contacto img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*prueba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+.texto{
+    text-align: center;
+    justify-items: center;
+    line-height: 300%;
+}
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: none;
+}
+.contactos img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.fondocontacto{
+    background-color:beige;
+    --bs-card-bg: #000;
+}
+
+@media (max-width: 575px) {
+    .h5, h5 {
+    font-size: 4em;
+    text-shadow: 0 11px 11px red;
+}
+.carousel-caption p {
+    font-size: 1.5rem;
+    text-shadow: 0 7px 11px red;
+}
+}
+@media (max-width: 90px){
+    .blog1{
+        margin: 0% auto;
+    }
+    
+}
+
+    
+
